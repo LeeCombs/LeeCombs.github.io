@@ -32,7 +32,7 @@ plugins:
   
 # Disqus Comments
 disqus:
-    shotname: fractalpixels
+    shortname: fractalpixels
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
