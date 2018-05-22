@@ -29,9 +29,12 @@ theme: minima
 plugins:
   - jekyll-feed
   
-# Disqus Comments
+# Disqus comments
 disqus:
     shortname: fractalpixels
+
+# Google analytics
+google_analytics: UA-119758708-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
