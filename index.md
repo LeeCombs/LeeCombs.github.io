@@ -1,6 +1,10 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
+
+<div class="blurb">
+Welcome to Fractal Pixels!
+
+Fractal Pixels aims to be an independent game developer's site that will hopefully host my games and development blog!
+While it's a little barren now, expect content ranging from tutorials to my experiences of learning how to develop games.
+</div>
