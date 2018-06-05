@@ -10,7 +10,7 @@ This tutorial will go over the basics of setting up a new Nez project.
 
 Nez is a lightweight, 2D framework built upon MonoGame/FNA. You can read more about what Nez is and it's features [in the official documentation](https://prime31.github.io/Nez/). It uses a Scene/Entity/Component system with Component render layer tracking and optional entity systems, which will be covered in future tutorials. However, if you're unfamiliar with Entity Component Systems, be sure to [familiarize yourself with them](https://en.wikipedia.org/wiki/Entity%E2%80%93component%E2%80%93system).
 
-This tutorial uses Windows 10, Visual Studio 2017, and Monogame 3.6.
+This tutorial uses Windows 10, Visual Studio 2017, and MonoGame 3.6.
 
 
 
@@ -142,6 +142,6 @@ Building the project should display a nice, green window.
 
 That's it! Setting up Nez is pretty straightforward. We'll use this as the base of tutorials going forward as we learn how to make games using Nez!
 
-You can see the results of the tutorial on this [Github Repo](https://github.com/LeeCombs/NezTutorial-FractalPixels/tree/master/Nez_Installation)
+You can see the results of the tutorial on this [Github Repo](https://github.com/LeeCombs/NezTutorial-FractalPixels/tree/master/Nez_Installation).
 
 Coming up next will be Entity Component System basics, and how Nez fits into the puzzle. We'll set up our first Nez Scene and add a simple player to it.
