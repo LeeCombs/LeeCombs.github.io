@@ -4,6 +4,7 @@ date: 2018-06-05
 category: devblog
 tags: [ Nez, C#, gamedev ]
 comments: true
+permalink: /devblog/nez-and-ecs-basics
 ---
 
 This tutorial will cover Entity Component System (ECS) basics, and how Nez fits into it's design.
@@ -12,7 +13,7 @@ Full disclosure before wading into this tutorial: My understanding of ECS can be
 
 ECS should be considered a guideline and Object Oriented Programming (OOP) principles can still be applied. Each programmer will find a balance that best works for them, and tutorials like this should not be seen as a definitive approach.
 
-## Entity Component System (ECS) Basics
+## [Entity Component System (ECS) Basics](#ecs-basics)
 
 In a sentence, an `Entity` is a container of components, a `Component` is a container for data, and a `System` acts upon entities with specific components. There's a fantastic [key and lock analogy on Stack Exchange](https://gamedev.stackexchange.com/a/31491) that should help explain these concepts.
 
@@ -117,7 +118,7 @@ Systems operate in the order they are added to the program. A system will operat
 
 For example, say we have the `Movement` system above, an `Input` system that listens for a player's input, and a `Drawing` system that draws sprites to the screen. We would want the `Input` system to handle the input first, then have the `Movement` system update the player entity's position based on that input, then have the `Drawing` system display the entity's new position to the screen.
 
-## Nez's Scene Entity Component System
+## [Nez's Scene Entity Component System](#nez-ecs)
 
 This will be a very surface level of Nez's Scene/Entity/Component System. Most of Nez revolves around an ECS. You can read about it in-depth in the [Nez's Scene/Entity/Component System FAQ](https://github.com/prime31/Nez/blob/master/FAQs/Scene-Entity-Component.md).
 
@@ -197,7 +198,7 @@ Once the project is built, we'll be greeted by our new entities!
 
 
 
-## Nez Entity Systems
+## [Nez Entity Systems](#nez-entity-systems)
 
 The way to manage entities with Nez is by using `Entity System` , which function as a traditional ECS `System`.  You can read about them in depth in the [Nez's Entity Systems FAQ.](https://github.com/prime31/Nez/blob/master/FAQs/EntitySystems.md) Entity Systems are added to Nez scenes and are executed in the order they are added. Nez includes `EntityProcessingSystem`, `ProcessingSystem`, and `PassiveSystem`, the details of which can be found in the FAQ.
 
@@ -254,7 +255,7 @@ Now, whenever a `HealthComponent` is attached to an entity, its health will drai
 
 ![Enemy Death Gif](\assets\nez_and_ecs_basics\PlayerEnemy.gif)
 
-## Conclusion
+## [Conclusion](#conclusion)
 
 You can see the files of interested created during the tutorial on this [Github Repo](https://github.com/LeeCombs/NezTutorial-FractalPixels/tree/master/Nez_ECS_Basics).
 

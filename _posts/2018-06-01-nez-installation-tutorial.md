@@ -4,6 +4,7 @@ date: 2018-06-02
 category: devblog
 tags: [ Nez, C#, gamedev ]
 comments: true
+permalink: /devblog/nez-installation-tutorial
 ---
 
 This tutorial will go over the basics of setting up a new Nez project.
@@ -14,7 +15,7 @@ This tutorial uses Windows 10, Visual Studio 2017, and MonoGame 3.6.
 
 
 
-## MonoGame Setup
+## [MonoGame Setup](#monogame-setup)
 
 Nez requires a standard MonoGame project to be set up. You can follow the official documentation to do this [here](http://www.monogame.net/documentation/?page=creating_a_new_project_vs), but basically all you need to do is:
 
@@ -30,7 +31,7 @@ Nez requires a standard MonoGame project to be set up. You can follow the offici
 
 
 
-## Adding Nez
+## [Adding Nez](#adding-nez)
 
 Now we'll add Nez to our solution. The official documentation for this process can be found [here](https://prime31.github.io/Nez/documentation/setup/installation).
 
@@ -52,9 +53,9 @@ Now we'll add Nez to our solution. The official documentation for this process c
 
 
 
-## Adding Nez Pipeline Importer (Optional)
+## [Adding Nez Pipeline Importer](#adding-nez-pipeline-importer)
 
-Here we'll add the Nez Pipeline Importer to our solution. As per documentation:
+Here we'll add the Nez Pipeline Importer to our solution. This step is optional, but recommended. As per documentation:
 
 > "Nez provides a plethora of Pipeline Tool importers out of the box.  Importers take data such as Tiled maps and convert them into a binary  format that is much faster and more efficient to use at runtime."
 
@@ -78,7 +79,7 @@ Adding the Pipeline Importer is similar to adding the Nez project above.
 
 Now we're set up! Nez supports many importers out of the box. You can read more about it in the [Pipeline Importers FAQ](https://github.com/prime31/Nez/blob/master/FAQs/PipelineImporters.md).
 
-## Setting up Game1.cs
+## [Setting up the Game class](#setting-up-the-game-class)
 
 Now that we have Nez set up, we can move into hooking it up to our previously created MonoGame project. 
 
@@ -138,7 +139,7 @@ Building the project should display a nice, green window.
 
 ![Nez Build Success](\assets\nez_installation_pics\NezWorks.png)
 
-## Conclusion
+## [Conclusion](#conclusion)
 
 That's it! Setting up Nez is pretty straightforward. We'll use this as the base of tutorials going forward as we learn how to make games using Nez!
 

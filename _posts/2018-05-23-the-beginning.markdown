@@ -4,6 +4,7 @@ date: 2018-05-23
 category: devblog
 tags: [ Nez, C#, gamedev ]
 comments: true
+permalink: /devblog/the-beginning
 ---
 This site is live, and quite volatile at the moment. The will change quite a bit until I determine the overall style for it.
 
