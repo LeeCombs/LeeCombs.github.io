@@ -13,7 +13,7 @@ Full disclosure before wading into this tutorial: My understanding of ECS can be
 
 ECS should be considered a guideline and Object Oriented Programming (OOP) principles can still be applied. Each programmer will find a balance that best works for them, and tutorials like this should not be seen as a definitive approach.
 
-## [Entity Component System (ECS) Basics](#ecs-basics)
+## [Entity Component System Basics](#entity-component-system-basics)
 
 In a sentence, an `Entity` is a container of components, a `Component` is a container for data, and a `System` acts upon entities with specific components. There's a fantastic [key and lock analogy on Stack Exchange](https://gamedev.stackexchange.com/a/31491) that should help explain these concepts.
 
@@ -118,7 +118,7 @@ Systems operate in the order they are added to the program. A system will operat
 
 For example, say we have the `Movement` system above, an `Input` system that listens for a player's input, and a `Drawing` system that draws sprites to the screen. We would want the `Input` system to handle the input first, then have the `Movement` system update the player entity's position based on that input, then have the `Drawing` system display the entity's new position to the screen.
 
-## [Nez's Scene Entity Component System](#nez-ecs)
+## [Nez's Scene Entity Component System](#nezs-scene-entity-component-system)
 
 This will be a very surface level of Nez's Scene/Entity/Component System. Most of Nez revolves around an ECS. You can read about it in-depth in the [Nez's Scene/Entity/Component System FAQ](https://github.com/prime31/Nez/blob/master/FAQs/Scene-Entity-Component.md).
 
