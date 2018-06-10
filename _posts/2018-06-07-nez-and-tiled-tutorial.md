@@ -17,7 +17,7 @@ All of the files used during this tutorial can be located in the [Github Repo he
 
 ## [Some Initial Setup](#some-initial-setup)
 
-Before continuing with this tutorial, please ensure that the Nez.PipelineImporter is set up. See [Setting up Nez Pipeline Importer tutorial](/devblog/2018/06/02/nez-installation-tutorial.html#adding-nez-pipeline-importer).
+Before continuing with this tutorial, please ensure that the Nez.PipelineImporter is set up. See [Setting up Nez Pipeline Importer tutorial](/devblog/nez-installation-tutorial.html#adding-nez-pipeline-importer).
 
 Also, to help manage render layers for upcoming tutorials, we'll add a `RenderLayer` enum to keep everything in one place.
 
@@ -73,7 +73,7 @@ tiledMapComponent.setLayersToRender(new string[] { "Above_Detail", "Detail", "Ti
 tiledMapComponent.renderLayer = (int)RenderLayer.TileMap;
 ```
 
-That's all it takes! If we build the solution, we'll be greeted with out loaded tile map.
+That's all it takes! If we build the solution, we'll be greeted with our loaded tile map.
 
 ![TiledMap](\assets\tiled\FirstTiledBuild.png)
 
