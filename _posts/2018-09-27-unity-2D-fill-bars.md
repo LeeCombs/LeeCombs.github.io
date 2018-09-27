@@ -196,7 +196,7 @@ void Update () {
 }
 ```
 
-This is our fill now in action:
+This is our fill bar now in action:
 
 ![FillBarFill](\assets\unity_2d_fill_bars\FillBarFill.gif)
 
