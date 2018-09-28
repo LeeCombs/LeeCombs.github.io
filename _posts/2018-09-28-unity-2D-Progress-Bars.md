@@ -4,7 +4,7 @@ date: 2018-09-27
 category: devblog
 tags: [ Unity, C#, gamedev ]
 comments: true
-permalink: /devblog/unity-2D-fill-bars
+permalink: /devblog/unity-2D-progress-bars
 ---
 
 In this post I'll explain how to make a progress bar using Unity and C#. After going through it you should be able to create a basic progress bar using Unity assets, as well as adding simple customizations and functionality.
