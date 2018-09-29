@@ -14,11 +14,13 @@ I'm currently teaching myself Unity and C# while making a small incremental/idle
 
 Files for this tutorial are hosted on my [Github here](https://github.com/LeeCombs/NezTutorial-FractalPixels/tree/master/Unity_Progress_Bars).
 
-## [Progress Bar Functionality](#progress-bar-functionality)
+## [Anatomy of a Radial Fill](#anatomy-of-a-radial-fill)
 
-Build upon previously created fill bar, link the tutorial
+Image
 
-Script changes and unity discussion.
+Image
+
+blah blah blah
 
 ## [Radial Fill Bar](#radial-fill-bar)
 
@@ -62,3 +64,21 @@ Scripting
 - CurVal property
 - increment tester, like fill bar
 - Link components to public references
+
+## [Progress Functionality](#progress-functionality)
+
+Just drop the script and link to the previous tutorial
+
+note instead of slider, using fillAmount, maybe customs?
+
+## [Conclusion](#conclusion)
+
+This is what we did
+
+This is why?
+
+This is the Github Link
+
+This is the plan going forward
+
+Additional reading?

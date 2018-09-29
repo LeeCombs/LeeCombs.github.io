@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2018-09-27
+date: 2018-09-28
 category: devblog
 tags: [ Unity, C#, gamedev ]
 comments: true
@@ -13,7 +13,7 @@ First we'll make a fill bar that will simply be for displaying a value between a
 
 I'm currently teaching myself Unity and C# while making a small incremental/idle game. While I may not be currently following the best practices for coding or design, I am open to constructive feedback regarding either. If you have any recommendations or requests please feel free to share them.
 
-Files for this tutorial are hosted on my [Github here](https://github.com/LeeCombs/NezTutorial-FractalPixels/tree/master/Unity_Progress_Bars).
+Files for this tutorial are hosted on my [Github here](https://github.com/LeeCombs/Fractal-Pixels-Tutorials/tree/master/Unity%202D%20Progress%20Bars).
 
 ## [Anatomy of a Fill Bar](#anatomy-of-a-fill-bar)
 
@@ -363,6 +363,6 @@ We've created a basic progress bar in Unity. While limited, it creates a good fo
 
 If you have any comments or questions regarding anything covered by this tutorial, or have an idea for future posts, feel free the leave them below.
 
-As stated before, all files generated during this tutorial can be found on my [Github here](https://github.com/LeeCombs/NezTutorial-FractalPixels/tree/master/Unity_Progress_Bars).
+As stated before, all files generated during this tutorial can be found on my [Github here](https://github.com/LeeCombs/Fractal-Pixels-Tutorials/tree/master/Unity%202D%20Progress%20Bars).
 
 Coming up will be Unity Radial Fills and Delayed Fill Bars, and possibly anything else I can think of that's related.
