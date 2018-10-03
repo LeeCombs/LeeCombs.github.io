@@ -11,6 +11,10 @@ In this post I'll explain how to make a progress bar using Unity and C#. After g
 
 First we'll make a fill bar that will simply be for displaying a value between a defined minimum and maximum, both as a graphical bar and numerical text display. Then we'll move into providing progress bar functionality to the fill bar where we can call methods once it's been filled.
 
+At the end of the tutorial we'll wind up with a radial fill that looks like this:
+
+![ProgressFill](\assets\unity_2d_progress_bars\FillBarFill.gif)
+
 I'm currently teaching myself Unity and C# while making a small incremental/idle game. While I may not be currently following the best practices for coding or design, I am open to constructive feedback regarding either. If you have any recommendations or requests please feel free to share them.
 
 Files for this tutorial are hosted on my [Github here](https://github.com/LeeCombs/Fractal-Pixels-Tutorials/tree/master/Unity%202D%20Progress%20Bars).
@@ -51,10 +55,9 @@ We'll resize the slider to fit its parent game object and appear more rectangula
 
 ![BackgroundRectTransform](\assets\unity_2d_progress_bars\BackgroundRectTransform.png)
 
-
 **Fill Area**
 
-- *Anchor*'s Min X/Y **= 0**, Max X/Y **= 0**
+- *Anchor*'s Min X/Y **= 0**, Max X/Y **= 1**
 - *Rect Transform*'s Right **= 5**, Top/Bottom **= 0**
 - *Fill*'s Color **= Green**
 
@@ -309,7 +312,7 @@ And that's everything! The progress bar will fill up to its max fill value, whic
 A couple of things to note:
 
 - When completing progress the Unity event is only fired off once, no matter how full it gets. To have it fire off each time it's filled, you could calculate the total number of fills, then invoke the event. Something similar to `int totalFills = (int)(value / slider.maxValue);`
-- Instead of directly accessing `CurrentValue`, you may instead write methods for handling adding and removing progress to ensure that we're not adding negative progress, or attempting to set the current progress value too low.
+- Instead of directly accessing *CurrentValue*, you may instead write methods for handling adding and removing progress to ensure that we're not adding negative progress, or attempting to set the current progress value too low.
 
 Lastly, here is our `ProgressBar.cs` code in its entirety:
 
