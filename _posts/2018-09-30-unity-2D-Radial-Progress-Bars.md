@@ -126,11 +126,9 @@ Now we have a functional radial fill that is handled through *CurrentValue*:
 
 Now we'll move onto making the radial progress bar. It'll be built on top of our newly minted radial fill, so all we'll need to do is write a simple script which will be basically the same as the script created in the [progress bar tutorial here](/devblog/unity-2d-progress-bars.html#progress-functionality). That tutorial covers the reasoning behind the code.
 
-Right click the **Assets folder > Create > C# Script** and call it `RadialProgress.cs`. We'll reuse our previously created fill bar by removing the existing `RadialFill` script, attaching our new `RadialProgress` script, and hooking up the fill image and display text just like we did before.
+Right click the **Assets folder > Create > C# Script** and call it `RadialProgress.cs`. We'll reuse our previously created fill bar by removing the existing `RadialFill` script, attaching our new `RadialProgress` script, and hooking up the fill image and display text just like we did before. 
 
-![RadialProgressFill](\assets\unity_2d_radial_progress\RadialProgressFill.gif)
-
-As before, copy and paste this code into `RadialProgress.cs`. For more explanation refer to the tutorial linked previously.
+Copy and paste this code into `RadialProgress.cs`. For more explanation refer to the tutorial linked previously.
 
 ```csharp
 using UnityEngine;
