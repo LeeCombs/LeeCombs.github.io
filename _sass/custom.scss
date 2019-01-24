@@ -29,7 +29,7 @@ body {
 	.post-title {
 		width: auto;
 		overflow: hidden;
-		padding-top: 5px;
+		padding-top: 0;
 		padding-left: 10px;
 		padding-bottom: 5px;
 		
@@ -43,9 +43,14 @@ body {
 		overflow: hidden;
 		padding-left: 5px;
 		
-		.post-author, .post-date, .post-category {
+		.post-author, .post-date {
 			font-weight: bold;
 			color: orange;
+		}
+		
+		.post-category {
+			font-weight: bold;
+			color: dodgerblue;
 		}
 	}
 	
@@ -129,6 +134,9 @@ body {
 .home-content {
 	
 	.home-intro {
+		padding-bottom: 10px;
+		border-bottom: solid;
+		
 		h1 {
 			font-size: 48px;
 			font-weight: 600;

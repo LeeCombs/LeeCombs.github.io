@@ -17,56 +17,17 @@ layout: default
 			<h1 class="post-list-heading">
 				{{ page.list_title | default: "Recent Posts" }}
 			</h1>
+		
+			{% include posts_list.html %}
 
-			<ul class="post-list">
-				{%- for post in site.posts -%}
-					<li>
-						
-						<div class="post-card">
-							<a href="{{ post.url | relative_url }}">
-								<div class="post-thumbnail">
-									<img src= "{{ post.thumbnail_link }}">
-								</div>
-
-								<div class="post-title">
-									<h3>
-										<div class="post-link">
-											{{ post.title | escape }}
-										</div>
-
-									</h3>
-								</div>
-							</a>
-							
-							<div class="post-meta">
-								{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-								<span class="post-meta">
-									<span class="post-author">{{ post.author }}</span>
-									posted this on
-									<span class="post-date">{{ post.date | date: date_format }}</span>
-									in
-									<span class="post-category">{{ post.category }}</span>
-								</span>
-							</div>
-							
-						</div>
-						
-
-
-						{%- if site.show_excerpts -%}
-							{{ post.excerpt }}
-						{%- endif -%}
-					</li>
-				{%- endfor -%}
-			</ul>
-
-			<p class="feed-subscribe">
-				<svg class="svg-icon orange">
-					<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-				</svg>
-				<a href="{{ "/feed.xml" | relative_url }}">Subscribe</a>
-		</p>
 		{%- endif -%}
+		
+		<p class="feed-subscribe">
+			<svg class="svg-icon orange">
+				<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+			</svg>
+			<a href="{{ "/feed.xml" | relative_url }}">Subscribe</a>
+		</p>
 
 	</div>
 </div>
