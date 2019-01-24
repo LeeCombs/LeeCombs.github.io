@@ -4,6 +4,8 @@ date: 2018-06-07
 category: devblog
 tags: [ Nez, C#, gamedev ]
 comments: true
+author: Fractal Pixels
+thumbnail_link: /assets/thumbnails/nez_logo.png
 permalink: /devblog/nez-and-tiled-tutorial
 ---
 

@@ -4,6 +4,8 @@ date: 2018-09-28
 category: devblog
 tags: [ Unity, C#, gamedev ]
 comments: true
+author: Fractal Pixels
+thumbnail_link: /assets/thumbnails/unity_2D_progress_bar.png
 permalink: /devblog/unity-2D-progress-bars
 ---
 
