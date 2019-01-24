@@ -1,0 +1,73 @@
+body {
+	background-color: royalblue;
+	background-image: url(/assets/blue_squares.png);
+}
+
+.wrapper {
+	max-width: 900px;
+	background-color: white;
+}
+
+/**
+ * Page Content
+ */
+
+.page-content {
+	
+}
+
+/**
+ * Site Header
+ */
+
+.site-header {
+	border-top: 0px;
+	background-color: royalblue;
+	background-image: url(/assets/darkblue_squares.png);
+	
+	.wrapper {
+		background: inherit;
+	}
+	
+	.site-title {
+		color: white;
+		font-weight: 500;
+	}
+	
+	.site-nav {
+		.page-link {
+			color: orange;
+		}
+	}
+}
+
+/**
+ * Site Footer
+ */
+
+.site-footer {
+	padding: 10px 0;
+	background-color: royalblue;
+	background-image: url(/assets/darkblue_squares.png);
+	
+	.wrapper {
+		background: inherit;
+	}
+	
+	.footer-heading {
+		color: white;
+		font-weight: 600;
+	}
+	
+	.footer-col {
+		color: white;
+		
+		svg {
+			fill: white;
+		}
+	}
+	
+	a {
+		color: orange;
+	}
+}
