@@ -5,7 +5,7 @@ category: devblog
 tags: [ Nez, C#, gamedev ]
 comments: true
 author: Fractal Pixels
-thumbnail_link: /assets/thumbnails/nez_logo.png
+thumbnail_link: /assets/thumbnails/favicon.png
 permalink: /devblog/the-beginning
 ---
 This site is live, and quite volatile at the moment. The will change quite a bit until I determine the overall style for it.

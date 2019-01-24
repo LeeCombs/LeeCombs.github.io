@@ -8,6 +8,10 @@ body {
 	background-color: white;
 }
 
+.post-list li {
+	margin-bottom: 0;
+}
+
 .post-card {
 	min-height: 100px;
 	width: inherit;
@@ -18,8 +22,9 @@ body {
 		height: 75px;
 		float: left;
 		box-shadow: 3px 3px 3px grey;
-		background-color: white;
+		background-color: black;
 	}
+	
 	
 	.post-title {
 		width: auto;
@@ -59,7 +64,6 @@ body {
 		
 		padding: 10px 20px;
 	}
-	
 }
 
 /**
