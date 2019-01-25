@@ -7,6 +7,7 @@ comments: true
 author: Fractal Pixels
 thumbnail_link: /assets/thumbnails/nez_tiled.png
 permalink: /devblog/nez-and-tiled-tutorial
+
 ---
 
 <div class="post-intro" markdown="1">

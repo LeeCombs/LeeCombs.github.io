@@ -7,6 +7,7 @@ comments: true
 author: Fractal Pixels
 thumbnail_link: /assets/thumbnails/nez_logo.png
 permalink: /devblog/nez-and-ecs-basics
+
 ---
 
 <div class="post-intro" markdown="1">

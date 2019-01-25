@@ -7,6 +7,7 @@ comments: true
 author: Fractal Pixels
 thumbnail_link: /assets/thumbnails/unity_2D_progress_bar.png
 permalink: /devblog/unity-2D-progress-bars
+
 ---
 
 <div class="post-intro" markdown="1">
