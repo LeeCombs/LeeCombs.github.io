@@ -12,6 +12,17 @@ body {
 	margin-bottom: 0;
 }
 
+.page-heading {
+	font-size: 48px;
+	font-weight: 600;
+	text-align: center;
+}
+
+
+/**
+ * Recenet Posts
+ */
+
 .post-card {
 	min-height: 100px;
 	width: inherit;
@@ -132,16 +143,9 @@ body {
  */
 
 .home-content {
-	
 	.home-intro {
 		padding-bottom: 10px;
 		border-bottom: solid;
-		
-		h1 {
-			font-size: 48px;
-			font-weight: 600;
-			text-align: center;
-		}
 	}
 }
 

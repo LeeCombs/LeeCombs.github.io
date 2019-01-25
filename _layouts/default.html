@@ -3,11 +3,18 @@
   {%- include head.html -%}
   <body>
     {%- include header.html -%}
+		
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
+				
+				{%- if page.header -%}
+					<h1 class="page-heading">{{ page.header }}</h1>
+				{%- endif -%}
+				
         {{ content }}
       </div>
     </main>
+		
     {%- include footer.html -%}
   </body>
 </html>
