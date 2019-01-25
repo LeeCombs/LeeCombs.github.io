@@ -36,7 +36,6 @@ body {
 		background-color: black;
 	}
 	
-	
 	.post-title {
 		width: auto;
 		overflow: hidden;
@@ -150,6 +149,52 @@ body {
 	
 	div {
 		padding: 5px;
+	}
+}
+
+/**
+ * Posts
+ */
+
+.post-header {
+	font-size: 48px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.post-content {
+	
+	h1, h2, h3, h4 {
+		padding: 15px 0;
+		text-align: center;
+	}
+	
+	h2 {
+		font-size: 48px;
+		font-weight: 600;
+		border-top: solid;
+	}
+	
+	h3 {
+		font-size: 32px;
+		font-weight: 600;
+		text-align: left;
+		padding: 5px 0;
+		margin-bottom: 5px;
+	}
+	
+	.post-intro {
+		padding-bottom: 10px;
+		border-bottom: solid;
+	}
+	
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border: solid;
+		border-width: 1px;
+		background-color: gray;
 	}
 }
 
