@@ -1,6 +1,39 @@
-{% for post in site.categories[page.category] %}
-	<a href="{{ post.url | absolute_url }}">
-		• {{ post.title }}
-	</a>
-	<br/>
-{% endfor %}
+<ul class="post-list">
+	{%- for post in site.categories[page.category] -%}
+		<li>
+
+			<div class="post-card">
+				<a href="{{ post.url | relative_url }}">
+					<div class="post-thumbnail">
+						<img src= "{{ post.thumbnail_link }}">
+					</div>
+
+					<div class="post-title">
+						<h3>
+							<div class="post-link">
+								{{ post.title | escape }}
+							</div>
+						</h3>
+					</div>
+				</a>
+
+				<div class="post-meta">
+					{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+					<span class="post-meta">
+						<span class="post-author">{{ post.author }}</span>
+						posted this on
+						<span class="post-date">{{ post.date | date: date_format }}</span>
+						in
+						<a href="category/{{ post.category }}">
+							<span class="post-category">{{ post.category }}</span>
+						</a>
+					</span>
+				</div>
+			</div>
+			
+			{%- if site.show_excerpts -%}
+				{{ post.excerpt }}
+			{%- endif -%}
+		</li>
+	{%- endfor -%}
+</ul>
