@@ -9,6 +9,8 @@ thumbnail_link: /assets/thumbnails/unity_2D_progress_bar.png
 permalink: /devblog/unity-2D-progress-bars
 ---
 
+<div class="post-intro" markdown="1">
+
 In this post I'll explain how to make a progress bar using Unity and C#. After going through it you should be able to create a basic progress bar using Unity assets, as well as adding simple customizations and functionality.
 
 First we'll make a fill bar that will simply be for displaying a value between a defined minimum and maximum, both as a graphical bar and numerical text display. Then we'll move into providing progress bar functionality to the fill bar where we can call methods once it's been filled.
@@ -20,6 +22,10 @@ At the end of the tutorial we'll wind up with a radial fill that looks like this
 I'm currently teaching myself Unity and C# while making a small incremental/idle game. While I may not be currently following the best practices for coding or design, I am open to constructive feedback regarding either. If you have any recommendations or requests please feel free to share them.
 
 Files for this tutorial are hosted on my [Github here](https://github.com/LeeCombs/Fractal-Pixels-Tutorials/tree/master/Unity%202D%20Progress%20Bars).
+
+{% include toc.html %}
+
+<div>
 
 ## [Anatomy of a Fill Bar](#anatomy-of-a-fill-bar)
 

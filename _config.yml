@@ -12,6 +12,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+kramdown:
+  parse_block_html: true
   
 # Disqus comments
 disqus:

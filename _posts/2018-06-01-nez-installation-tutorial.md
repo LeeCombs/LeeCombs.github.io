@@ -9,13 +9,17 @@ thumbnail_link: /assets/thumbnails/nez_logo.png
 permalink: /devblog/nez-installation-tutorial
 ---
 
+<div class="post-intro" markdown="1">
+
 This tutorial will go over the basics of setting up a new Nez project.
 
 Nez is a lightweight, 2D framework built upon MonoGame/FNA. You can read more about what Nez is and it's features [in the official documentation](https://prime31.github.io/Nez/). It uses a Scene/Entity/Component system with Component render layer tracking and optional entity systems, which will be covered in future tutorials. However, if you're unfamiliar with Entity Component Systems, be sure to [familiarize yourself with them](https://en.wikipedia.org/wiki/Entity%E2%80%93component%E2%80%93system).
 
 This tutorial uses Windows 10, Visual Studio 2017, and MonoGame 3.6.
 
+{% include toc.html %}
 
+</div>
 
 ## [MonoGame Setup](#monogame-setup)
 

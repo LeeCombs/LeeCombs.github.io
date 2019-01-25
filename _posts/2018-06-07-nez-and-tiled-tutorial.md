@@ -9,6 +9,8 @@ thumbnail_link: /assets/thumbnails/nez_tiled.png
 permalink: /devblog/nez-and-tiled-tutorial
 ---
 
+<div class="post-intro" markdown="1">
+
 This tutorial will go over importing and loading Tiled maps with Nez!
 
 Nez's Pipeline Importers include support for Tiled maps. It covers tile, image, and object layers and rendering with full culling support built-in along with optimized collider generation. 
@@ -16,6 +18,10 @@ Nez's Pipeline Importers include support for Tiled maps. It covers tile, image, 
 Maps generated for this project are created with the [Tiled Map Editor](https://www.mapeditor.org/), which is a free, 2D level editor that is great for developing maps for your games. 
 
 All of the files used during this tutorial can be located in the [Github Repo here](https://github.com/LeeCombs/NezTutorial-FractalPixels/tree/master/Nez_and_Tiled).
+
+{% include toc.html %}
+
+</div>
 
 ## [Some Initial Setup](#some-initial-setup)
 

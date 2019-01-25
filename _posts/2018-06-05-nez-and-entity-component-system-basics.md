@@ -9,11 +9,17 @@ thumbnail_link: /assets/thumbnails/nez_logo.png
 permalink: /devblog/nez-and-ecs-basics
 ---
 
+<div class="post-intro" markdown="1">
+
 This tutorial will cover Entity Component System (ECS) basics, and how Nez fits into it's design.
 
 Full disclosure before wading into this tutorial: My understanding of ECS can be described, at best, as amateur, but I understand enough to implement it. This tutorial will describe my personal approach to ECS, and how it ties in with Nez.
 
 ECS should be considered a guideline and Object Oriented Programming (OOP) principles can still be applied. Each programmer will find a balance that best works for them, and tutorials like this should not be seen as a definitive approach.
+
+{% include toc.html %}
+
+</div>
 
 ## [Entity Component System Basics](#entity-component-system-basics)
 

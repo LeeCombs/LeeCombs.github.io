@@ -1,3 +1,4 @@
+<!-- Display all of the posts within the category -->
 <ul class="post-list">
 	{%- for post in site.categories[page.category] -%}
 		<li>
@@ -16,17 +17,14 @@
 						</h3>
 					</div>
 				</a>
-
+				
+				<!-- Author and date -->
 				<div class="post-meta">
 					{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 					<span class="post-meta">
 						<span class="post-author">{{ post.author }}</span>
 						posted this on
 						<span class="post-date">{{ post.date | date: date_format }}</span>
-						in
-						<a href="category/{{ post.category }}">
-							<span class="post-category">{{ post.category }}</span>
-						</a>
 					</span>
 				</div>
 			</div>

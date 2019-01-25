@@ -24,6 +24,8 @@ I'm currently teaching myself Unity and C# while making a small incremental/idle
 
 Files for this tutorial are hosted on my [Github here](https://github.com/LeeCombs/Fractal-Pixels-Tutorials/tree/master/Unity%202D%20Radial%20Progress).
 
+{% include toc.html %}
+
 </div>
 
 ## [Anatomy of a Radial Fill](#anatomy-of-a-radial-fill)
