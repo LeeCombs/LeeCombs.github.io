@@ -3,7 +3,7 @@
 		<li>
 
 			<div class="post-card">
-				<a href="{{ post.url | relative_url }}">
+				<a href="{{ post.url | relative_url }}" onclick="ga('send', 'event', 'clicks', 'postcard click', '{{ post.title }}');">
 					<div class="post-thumbnail">
 						<img src= "{{ post.thumbnail_link }}">
 					</div>
@@ -24,7 +24,7 @@
 						posted this on
 						<span class="post-date">{{ post.date | date: date_format }}</span>
 						in
-						<a href="category/{{ post.category }}">
+						<a href="category/{{ post.category }}" onclick="ga('send', 'event', 'clicks', 'postcard category click', '{{ post.title }}');">
 							<span class="post-category">{{ post.category }}</span>
 						</a>
 					</span>
