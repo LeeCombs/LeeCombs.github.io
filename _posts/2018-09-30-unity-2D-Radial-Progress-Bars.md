@@ -14,6 +14,11 @@ permalink: /devblog/unity-2D-radial-progress-bars
 	
 In this post I'll explain how to make a radial progress bar using Unity and C#. After going through it you should be able to create a basic radial progress bar using Unity assets, as well as adding simple functionality.
 
+This is a continuation of a 2D Progress Bar Tutorial
+<a class="out-link" href="/devblog/unity-2D-progress-bars" onclick="ga('send','event','click','internal page click','2D Bar');">
+  found here.
+</a>
+
 First we'll make a radial fill that will simply be for displaying a value between a defined minimum and maximum, both as a graphical radial bar and numerical text display. Then we'll move into providing progress bar functionality to the radial fill where we can call methods once it's been filled.
 
 At the end of the tutorial we'll wind up with a radial fill that looks like this:
@@ -22,7 +27,10 @@ At the end of the tutorial we'll wind up with a radial fill that looks like this
 
 I'm currently teaching myself Unity and C# while making a small incremental/idle game. While I may not be currently following the best practices for coding or design, I am open to constructive feedback regarding either. If you have any recommendations or requests please feel free to share them.
 
-Files for this tutorial are hosted on my [Github here](https://github.com/LeeCombs/Fractal-Pixels-Tutorials/tree/master/Unity%202D%20Radial%20Progress).
+Files for this tutorial are hosted on my
+<a class="out-link" href="https://github.com/LeeCombs/Fractal-Pixels-Tutorials/tree/master/Unity%202D%20Radial%20Progress" onclick="ga('send','event','click','github click','2D Radial');">
+  Github Page Here.
+</a>
 
 {% include toc.html %}
 
@@ -197,4 +205,7 @@ We've created a basic radial progress fill bar in Unity. While limited, it shoul
 
 If you have any comments or questions regarding anything covered by this tutorial, or have an idea for future posts, feel free the leave them below.
 
-As stated before, all files generated during this tutorial can be found on my [Github here](https://github.com/LeeCombs/Fractal-Pixels-Tutorials/tree/master/Unity%202D%20Radial%20Progress).
+As stated before, all files generated during this tutorial can be found on my
+<a class="out-link" href="https://github.com/LeeCombs/Fractal-Pixels-Tutorials/tree/master/Unity%202D%20Radial%20Progress" onclick="ga('send','event','click','github click','2D Radial');">
+  Github Page Here.
+</a>

@@ -4,7 +4,7 @@
 		<li>
 
 			<div class="post-card">
-				<a href="{{ post.url | relative_url }}">
+				<a href="{{ post.url | relative_url }}" onclick="ga('send', 'event', 'clicks', 'project click', '{{ post.title }}');">
 					<div class="post-thumbnail">
 						<img src= "{{ post.thumbnail_link }}">
 					</div>

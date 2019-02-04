@@ -22,7 +22,15 @@ At the end of the tutorial we'll wind up with a radial fill that looks like this
 
 I'm currently teaching myself Unity and C# while making a small incremental/idle game. While I may not be currently following the best practices for coding or design, I am open to constructive feedback regarding either. If you have any recommendations or requests please feel free to share them.
 
-Files for this tutorial are hosted on my [Github here](https://github.com/LeeCombs/Fractal-Pixels-Tutorials/tree/master/Unity%202D%20Progress%20Bars).
+Files for this tutorial are hosted on my
+<a class="out-link" href="https://github.com/LeeCombs/Fractal-Pixels-Tutorials/tree/master/Unity%202D%20Progress%20Bars" onclick="ga('send','event','click','github click','2D Bar');">
+  Github Page Here.
+</a>
+
+If you're looking for a radial progress bar, I've written that
+<a class="out-link" href="/devblog/unity-2D-radial-progress-bars" onclick="ga('send','event','click','internal page click','2D Radial');">
+  in this tutorial here.
+</a>
 
 {% include toc.html %}
 
@@ -375,6 +383,14 @@ We've created a basic progress bar in Unity. While limited, it creates a good fo
 
 If you have any comments or questions regarding anything covered by this tutorial, or have an idea for future posts, feel free the leave them below.
 
-As stated before, all files generated during this tutorial can be found on my [Github here](https://github.com/LeeCombs/Fractal-Pixels-Tutorials/tree/master/Unity%202D%20Progress%20Bars).
+As stated before, all files generated during this tutorial can be found on my 
+<a href="https://github.com/LeeCombs/Fractal-Pixels-Tutorials/tree/master/Unity%202D%20Progress%20Bars" onclick="ga('send','event','click','github click','2D Bar');">
+  Github Page Here.
+</a>
+
+I've written about creating a Radial Fill Bar Here
+<a class="out-link" href="/devblog/unity-2D-radial-progress-bars" onclick="ga('send','event','click','internal page click','2D Radial');">
+  Radial Fill Bar Here
+</a>
 
 Coming up will be Unity Radial Fills and Delayed Fill Bars, and possibly anything else I can think of that's related.
