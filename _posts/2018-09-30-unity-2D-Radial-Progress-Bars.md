@@ -11,7 +11,7 @@ permalink: /devblog/unity-2D-radial-progress-bars
 ---
 
 <div class="post-intro" markdown="1">
-	
+
 In this post I'll explain how to make a radial progress bar using Unity and C#. After going through it you should be able to create a basic radial progress bar using Unity assets, as well as adding simple functionality.
 
 This is a continuation of a 2D Progress Bar Tutorial
@@ -162,7 +162,7 @@ public class RadialProgress : RadialFill {
         }
         set {
             // If the value exceeds the max fill, invoke the completion function
-            if (value > maxValue)
+            if (value >= maxValue)
                 onProgressComplete.Invoke();
 
             // Remove any overfill (i.e. 105% fill -> 5% fill)

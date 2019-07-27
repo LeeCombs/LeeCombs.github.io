@@ -289,7 +289,7 @@ public new float CurrentValue {
     }
     set {
         // If the value exceeds the max fill, invoke the completion function
-        if (value > slider.maxValue)
+        if (value >= slider.maxValue)
             onProgressComplete.Invoke();
 
         // Remove any overfill (i.e. 105% fill -> 5% fill)
@@ -349,7 +349,7 @@ public class ProgressBar : FillBar {
         }
         set {
             // If the value exceeds the max fill, invoke the completion function
-            if (value > slider.maxValue)
+            if (value >= slider.maxValue)
                 onProgressComplete.Invoke();
 
             // Remove any overfill (i.e. 105% fill -> 5% fill)
